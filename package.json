@@ -1,0 +1,25 @@
+{
+  "name": "allan-drozd-developer",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@quasar/extras": "^1.15.0",
+    "firebase": "^9.9.1",
+    "quasar": "^2.7.5",
+    "vue": "^3.2.37",
+    "vue-i18n": "^9.1.10"
+  },
+  "devDependencies": {
+    "@quasar/vite-plugin": "^1.1.1",
+    "@vitejs/plugin-vue": "^3.0.0",
+    "sass": "^1.32.12",
+    "sass-loader": "^13.0.2",
+    "vite": "^3.0.0"
+  }
+}
