@@ -1,9 +1,9 @@
 <template>
 	 <div class="q-py-xl">
-		  <div class="text-h4 q-pb-xl" :class="$q.screen.gt.md ? 'text-left':'text-center'">
+		  <div class="text-h4 q-pb-xl" :class="$q.screen.gt.sm ? 'text-left q-pl-xl' : 'text-center'">
 				{{ $t("talk") }}
 		  </div>
-		  <div class="text-center q-pl-none">
+		  <div class="text-center" :class="$q.screen.gt.sm ? 'q-pl-lg' : ''">
 				<div class="row">
 					 <div class="col-12 col-md-6">
 						  <q-card shaped outlined class="bg-primary q-pa-md">

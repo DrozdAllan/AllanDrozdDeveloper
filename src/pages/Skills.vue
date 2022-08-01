@@ -1,18 +1,18 @@
 <template>
 	 <div class="q-py-xl">
-		  <div class="text-h4 q-pb-xl" :class="$q.screen.gt.md ? 'text-left':'text-center'">
+		  <div class="text-h4 q-pb-xl" :class="$q.screen.gt.sm ? 'text-left q-pl-xl' : 'text-center'">
 				{{ $t("know") }}
 		  </div>
 		  <div>
-				<span class="q-pl-lg text-h6 text-bold">{{ $t("prog") }}</span>
+				<span class="text-h6 text-bold" :class="$q.screen.gt.sm ? 'text-left q-pl-xl' : 'q-pl-lg'">{{ $t("prog") }}</span>
 				<div class="row q-py-xl justify-around items-center">
-					 <div v-for="icon in iconsProg" class="col-3 col-md-2">
+					 <div v-for="icon in iconsProg" class="col-4 col-md-2">
 						  <IconDeOuf :title="icon.title" :filename="icon.filename" />
 					 </div>
 				</div>
-				<span class="q-px-lg text-h6 text-bold">{{ $t("design") }}</span>
+				<span class="text-h6 text-bold" :class="$q.screen.gt.sm ? 'text-left q-pl-xl' : 'q-pl-lg'">{{ $t("design") }}</span>
 				<div class="row q-py-xl justify-around">
-					 <div v-for="icon in iconsDesign" class="col-3 col-md-2">
+					 <div v-for="icon in iconsDesign" class="col-4 col-md-2">
 						  <IconDeOuf :title="icon.title" :filename="icon.filename" />
 					 </div>
 				</div>

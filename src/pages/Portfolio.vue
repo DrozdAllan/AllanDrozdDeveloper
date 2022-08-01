@@ -1,9 +1,9 @@
 <template>
 	 <div class="q-py-xl">
-		  <div class="col text-h4 q-pb-xl" :class="$q.screen.gt.md ? 'text-left':'text-center'">
+		  <div class="text-h4 q-pb-xl" :class="$q.screen.gt.sm ? 'text-left q-pl-xl' : 'text-center'">
 				{{ $t("done") }}
 		  </div>
-		  <div>
+		  <div :class="$q.screen.gt.sm ? 'text-left q-px-lg' : 'text-center'">
 				<q-card class="bg-primary">
 					 <q-tabs v-model="tab" dense active-color="white" indicator-color="white"
 								align="justify" narrow-indicator>
