@@ -91,7 +91,7 @@ const sections = [{
 
 .other-hero {
     background-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0) 1%, rgba(0, 0, 0, 0)), url('./assets/annie-spratt.jpg');
-    background-size: cover;
+    background-size: auto;
     padding: 10px;
 }
 </style>

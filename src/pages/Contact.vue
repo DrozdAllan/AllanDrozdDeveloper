@@ -14,9 +14,12 @@
 												 color="white" dark />
 									 {{ $t("message") }}
 									 <q-input v-model="message" type="textarea" outlined
-												 :rules="[val => val && val.length > 0 || $t('messageRule')]" color="white" dark />
+												 :rules="[val => val && val.length > 0 || $t('messageRule')]"
+												 color="white" dark />
 									 <div>
-										  <q-btn type="submit" color="white" text-color="primary" class="text-bold">
+										  <q-btn type="submit" color="white" text-color="primary"
+													class="text-bold q-py-sm" :class="{rubberAnim: isRubbing}"
+													@click="rub">
 												{{ $t('send') }}
 										  </q-btn>
 									 </div>
@@ -30,12 +33,22 @@
 <script setup>
 import {ref} from 'vue';
 import {useQuasar} from 'quasar';
+import '@quasar/extras/animate/rubberBand.css';
 import {addMessage} from "../firebase/index.js";
 
 const $q = useQuasar();
 
 const mail = ref('');
 const message = ref('');
+const isRubbing = ref(false);
+
+function rub() {
+    isRubbing.value = true
+    setTimeout(() => {
+        isRubbing.value = false
+    }, 1000)
+}
+
 
 function onSubmit() {
     if (message.value !== '' && mail.value !== '') {
@@ -44,10 +57,7 @@ function onSubmit() {
                 console.log(result.id);
                 if (result.id) {
                     $q.notify({
-                        color: 'green-4',
-                        textColor: 'white',
-                        icon: 'cloud_done',
-                        message: 'Sent !'
+                        color: 'green-4', textColor: 'white', icon: 'cloud_done', message: 'Sent !'
                     })
                     mail.value = '';
                     message.value = '';
@@ -56,12 +66,16 @@ function onSubmit() {
             .catch((e) => {
                 console.log(e);
                 $q.notify({
-                    color: 'red-4',
-                    textColor: 'white',
-                    icon: 'cloud_done',
+                    color: 'red-4', textColor: 'white', icon: 'cloud_done',
                     message: 'Error while sending message'
                 })
             });
     }
 }
 </script>
+<style lang="scss" scoped>
+.rubberAnim {
+  animation: rubberBand;
+  animation-duration: 1s;
+}
+</style>
