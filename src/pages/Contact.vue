@@ -35,8 +35,10 @@ import {ref} from 'vue';
 import {useQuasar} from 'quasar';
 import '@quasar/extras/animate/rubberBand.css';
 import {addMessage} from "../firebase/index.js";
+import {useI18n} from 'vue-i18n';
 
 const $q = useQuasar();
+const {t} = useI18n();
 
 const mail = ref('');
 const message = ref('');
@@ -57,7 +59,7 @@ function onSubmit() {
                 console.log(result.id);
                 if (result.id) {
                     $q.notify({
-                        color: 'green-4', textColor: 'white', icon: 'cloud_done', message: 'Sent !'
+                        color: 'green-4', textColor: 'white', icon: 'cloud_done', message: t('sent')
                     })
                     mail.value = '';
                     message.value = '';
@@ -67,7 +69,7 @@ function onSubmit() {
                 console.log(e);
                 $q.notify({
                     color: 'red-4', textColor: 'white', icon: 'cloud_done',
-                    message: 'Error while sending message'
+                    message: t('error')
                 })
             });
     }

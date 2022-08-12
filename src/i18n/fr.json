@@ -29,6 +29,7 @@
   "message": "Votre message",
   "send": "Envoyer le message",
   "sent": "Message envoyé !",
+  "error": "Erreur à l'envoi du message",
   "mailRule": "Mail requis",
   "mailRule2": "Format de mail invalide",
   "messageRule": "Message requis",
