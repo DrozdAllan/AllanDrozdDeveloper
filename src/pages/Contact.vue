@@ -9,17 +9,11 @@
 						  <q-card shaped outlined class="bg-primary q-pa-md">
 								<q-form @submit.prevent="onSubmit">
 									 {{ $t("mail") }}
-									 <q-input v-model="mail" outlined
-												 :rules="[val => !!val || $t('mailRule'), val => /.+@.+\..+/.test(val) || $t('mailRule2')]"
-												 color="white" dark />
+									 <q-input v-model="mail" outlined :rules="[val => !!val || $t('mailRule'), val => /.+@.+\..+/.test(val) || $t('mailRule2')]" color="white" dark />
 									 {{ $t("message") }}
-									 <q-input v-model="message" type="textarea" outlined
-												 :rules="[val => val && val.length > 0 || $t('messageRule')]"
-												 color="white" dark />
+									 <q-input v-model="message" type="textarea" outlined :rules="[val => val && val.length > 0 || $t('messageRule')]" color="white" dark />
 									 <div>
-										  <q-btn type="submit" color="white" text-color="primary"
-													class="text-bold q-py-sm" :class="{rubberAnim: isRubbing}"
-													@click="rub">
+										  <q-btn type="submit" color="white" text-color="primary" class="text-bold q-py-sm" :class="{rubberAnim: isRubbing}" @click="rub">
 												{{ $t('send') }}
 										  </q-btn>
 									 </div>
@@ -68,8 +62,7 @@ function onSubmit() {
             .catch((e) => {
                 console.log(e);
                 $q.notify({
-                    color: 'red-4', textColor: 'white', icon: 'cloud_done',
-                    message: t('error')
+                    color: 'red-4', textColor: 'white', icon: 'cloud_done', message: t('error')
                 })
             });
     }

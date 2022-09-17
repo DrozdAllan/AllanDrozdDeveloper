@@ -43,5 +43,6 @@
   "larallo": "Ce projet est une simple application de Chat utilisant l'api Pusher, avec un back Laravel et un front Vue 3 avec Quasar (hébergé sur Heroku avec free dyno, il met un peu de temps à charger) :",
   "movietitlesapi": "Nouvelle version de mon projet Movies Title, cette fois j'ai utilisé Laravel en backend et Vue 3 pour le frontend (hébergé sur Heroku avec free dyno, il met un peu de temps à charger) :",
   "blog": "Blog personnel fait avec Wordpress 6.0 dans lequel je parle de jeux-vidéo :",
-  "chinesedome": "En apprenant le mandarin j'ai décidé de faire une application sur la Chine, Laravel & Vue 3 (hébergé sur Heroku avec free dyno, il met un peu de temps à charger) : "
+  "chinesedome": "En apprenant le mandarin j'ai décidé de faire une application sur la Chine, Laravel & Vue 3 (hébergé sur Heroku avec free dyno, il met un peu de temps à charger) : ",
+  "p2p": "Utilisant Strapi et React avec Chakra UI pour afficher les jeux des consoles playstation qui sont sortis sur PC. Actuellement en train de travailler sur la version Angular du frontend. Repo Github : "
 }

@@ -35,6 +35,9 @@ const iconsProg = [{
     title: 'Firebase',
     filename: 'firebase_144'
 }, {
+    title: 'React',
+	 filename: 'react_128'
+}, {
     title: 'Express',
     filename: 'expressjsbg_128'
 }, {

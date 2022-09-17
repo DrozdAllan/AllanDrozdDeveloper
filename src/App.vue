@@ -30,6 +30,7 @@
 								<Skills id="skills" />
 								<Portfolio id="portfolio" />
 								<Contact id="contact" />
+								<Credits id="credits" />
 						  </div>
 					 </q-page>
 					 <q-page-sticky position="bottom-left" :offset="[18, 68]">
@@ -48,6 +49,7 @@ import About from './pages/About.vue';
 import Skills from './pages/Skills.vue';
 import Portfolio from "./pages/Portfolio.vue";
 import Contact from "./pages/Contact.vue";
+import Credits from "./pages/Credits.vue";
 
 const leftDrawerOpen = ref(false)
 const $q = useQuasar();

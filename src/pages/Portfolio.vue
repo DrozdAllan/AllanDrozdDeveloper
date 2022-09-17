@@ -22,10 +22,15 @@
 import PanelDeOuf from '../components/PanelDeOuf.vue'
 import {ref} from 'vue'
 
-const tab = ref('Chinese Dome');
+const tab = ref('Playstation To PC');
 const fullscreen = ref(false);
 
 const panels = [{
+    name: "Playstation To PC",
+    text: "p2p",
+    link: "https://github.com/DrozdAllan/vitrapi",
+    images: ['projects/p2p/1.jpg', 'projects/p2p/2.jpg'],
+}, {
     name: "Chinese Dome",
     text: "chinesedome",
     link: "https://chinese-dome.herokuapp.com/",

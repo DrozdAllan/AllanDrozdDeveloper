@@ -43,5 +43,6 @@
   "larallo": "This project is a simple Chat App using the Pusher API, with a Laravel backend and a Vue 3 with Quasar frontend (hosted on Heroku with free dyno so it takes some time to load) :",
   "movietitlesapi": "New version of my Movies Title project, this time I used Laravel as backend and Vue 3 for the frontend (hosted on Heroku with free dyno so it takes some time to load) :",
   "blog": "Personal blog made with Wordpress 6.0 where I talk about video games :",
-  "chinesedome": "While learning chinese I decided to make an app about China, Laravel & Vue 3 (hosted on Heroku with free dyno so it takes some time to load) : "
+  "chinesedome": "While learning chinese I decided to make an app about China, Laravel & Vue 3 (hosted on Heroku with free dyno so it takes some time to load) : ",
+  "p2p": "Using Strapi and React with Chakra UI to display videogames that went from playstation consoles to PC. Currently working on the Angular version of the frontend. Github repo : "
 }
