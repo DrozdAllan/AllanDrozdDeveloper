@@ -15,7 +15,7 @@ package-lock.json
 .firebase
 .firebaserc
 firebase.json
-src/firebase/index.js
+src/firebase/config.js
 
 # Editor directories and files
 .vscode/*
