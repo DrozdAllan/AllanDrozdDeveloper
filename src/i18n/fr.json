@@ -1,5 +1,5 @@
 {
-  "available": "Disponible ici",
+  "available": "disponible ici.",
   "title": "Développeur",
   "about": "A Propos",
   "services": "Services",
@@ -33,16 +33,16 @@
   "mailRule": "Mail requis",
   "mailRule2": "Format de mail invalide",
   "messageRule": "Message requis",
-  "mynextgame": "My Next Game est une application Android où l'utilisateur peut obtenir un titre et la couverture d'un jeu vidéo soit en répondant à 4 questions soit par tirage aléatoire. Fait avec Flutter et Firebase pour la base de données. Je suis parti sur un design fun avec un logo et des couleurs au ton joyeux.",
+  "mynextgame": "My Next Game est une application Android où l'utilisateur peut obtenir un titre et la couverture d'un jeu vidéo soit en répondant à 4 questions soit par tirage aléatoire. Fait avec Flutter et Firebase pour la base de données. Je suis parti sur un design fun avec un logo et des couleurs au ton joyeux. Application ",
   "appLink": "et pour le lien Google Play Store : ",
-  "lanya": "Lanya est un site web classique d'e-commerce, utilisant Firebase et Stripe, combiné avec Vue 2 et Vuetify pour créer une Single Page Application.",
-  "moviesTitle": "MoviesTitle est un projet où je voulais créer une API avec ApiPlatform. Fait en PHP 8 avec Symfony livré avec Vue 2 + Vuetify pour le front (hébergé sur Heroku avec free dyno, il met un peu de temps à charger) :",
-  "multitasky": "Mültitaskÿ est un petit projet pour tester quelques composants Vuetify et Vue Leaflet pour manipuler des cartes.",
+  "lanya": "Lanya est un site web classique d'e-commerce, utilisant Firebase et Stripe, combiné avec Vue 2 et Vuetify pour créer une Single Page Application. Site web ",
+  "moviesTitle": "MoviesTitle est un projet où je voulais créer une API avec ApiPlatform. Fait en PHP 8 avec Symfony livré avec Vue 2 + Vuetify pour le front. Dépôt Github ",
+  "multitasky": "Mültitaskÿ est un petit projet pour tester quelques composants Vuetify et Vue Leaflet pour manipuler des cartes. Projet ",
   "fleeting": "Fleeting était mon premier gros projet. Inscription vérifié par admin, recherche de profil, messagerie 1 à 1, paiement unique et abonnement. Utilisant uniquement Symfony et le design était fait avec Bootstrap 4.6",
-  "hackaton": "Ce petit projet a été fait pour le Flutter Hackaton 2022. L'objectif était de réimaginer le puzzle classique. Fait avec Flutter Web : ",
-  "larallo": "Ce projet est une simple application de Chat utilisant l'api Pusher, avec un back Laravel et un front Vue 3 avec Quasar (hébergé sur Heroku avec free dyno, il met un peu de temps à charger) :",
-  "movietitlesapi": "Nouvelle version de mon projet Movies Title, cette fois j'ai utilisé Laravel en backend et Vue 3 pour le frontend (hébergé sur Heroku avec free dyno, il met un peu de temps à charger) :",
-  "blog": "Blog personnel fait avec Wordpress 6.0 dans lequel je parle de jeux-vidéo :",
-  "chinesedome": "En apprenant le mandarin j'ai décidé de faire une application sur la Chine, Laravel & Vue 3 (hébergé sur Heroku avec free dyno, il met un peu de temps à charger) : ",
-  "p2p": "Utilisant Strapi et React avec Chakra UI pour afficher les jeux des consoles playstation qui sont sortis sur PC. Actuellement en train de travailler sur la version Angular du frontend. Repo Github : "
+  "hackaton": "Ce petit projet a été fait pour le Flutter Hackaton 2022. L'objectif était de réimaginer le puzzle classique avec Flutter. Projet ",
+  "larallo": "Ce projet est une simple application de Chat utilisant l'api Pusher, avec un back Laravel et un front Vue 3 avec Quasar. Dépôt Github ",
+  "movietitlesapi": "Nouvelle version de mon projet Movies Title, cette fois j'ai utilisé Laravel en backend et Vue 3 pour le frontend. Dépôt Github ",
+  "blog": "Blog personnel fait avec Wordpress 6.0 dans lequel je parle de jeux-vidéo. Site web ",
+  "chinesedome": "En apprenant le mandarin j'ai décidé de faire une application sur la Chine, Laravel & Vue 3. Dépôt Github ",
+  "p2p": "Utilisant Strapi et React avec Chakra UI pour afficher les jeux des consoles playstation qui sont sortis sur PC. Actuellement en train de travailler sur la version Angular du frontend. Dépôt Github "
 }

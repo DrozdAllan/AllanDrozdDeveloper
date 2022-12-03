@@ -33,7 +33,7 @@ const panels = [{
 }, {
     name: "Chinese Dome",
     text: "chinesedome",
-    link: "https://chinese-dome.herokuapp.com/",
+    link: "https://github.com/DrozdAllan/chinese_dome",
     images: ['projects/chinesedome/1.jpg', 'projects/chinesedome/2.jpg', 'projects/chinesedome/3.jpg'],
 }, {
     name: "Allan\'s Blog",
@@ -43,12 +43,12 @@ const panels = [{
 }, {
     name: "Movie Titles API",
     text: "movietitlesapi",
-    link: "https://movietitlesapi.herokuapp.com/",
+    link: "https://github.com/DrozdAllan/laravelApi",
     images: ['projects/movietitlesapi/1.png', 'projects/movietitlesapi/2.png', 'projects/movietitlesapi/3.png']
 }, {
     name: "Larallo",
     text: "larallo",
-    link: "https://larallovue3quasar.herokuapp.com/",
+    link: "https://github.com/DrozdAllan/larallo",
     images: ['projects/larallo/1.png', 'projects/larallo/2.png']
 }, {
     name: "Lanya",
@@ -68,7 +68,7 @@ const panels = [{
 }, {
     name: "Movies title",
     text: "moviesTitle",
-    link: "https://mysterious-woodland-51583.herokuapp.com/",
+    link: "https://github.com/DrozdAllan/MovieTitle",
     images: ['projects/moviestitle/1.png', 'projects/moviestitle/2.png', 'projects/moviestitle/3.png']
 }, {
     name: "Mültitaskÿ",
