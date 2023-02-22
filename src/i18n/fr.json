@@ -7,8 +7,8 @@
   "portfolio": "Portfolio",
   "contact": "Contact",
   "who": "Qui je suis",
-  "talk1": "Un développeur fullstack autodidacte et enthousiaste",
-  "talk2": "Armé de Flutter, Vue et Firebase",
+  "talk1": "Un développeur autodidacte et enthousiaste",
+  "talk2": "Armé de Flutter, Laravel et Vue",
   "talk3": "Bienvenue sur ma page",
   "what": "Ce que je peux faire pour vous",
   "what0": "Développement Web",
@@ -44,5 +44,6 @@
   "movietitlesapi": "Nouvelle version de mon projet Movies Title, cette fois j'ai utilisé Laravel en backend et Vue 3 pour le frontend. Dépôt Github ",
   "blog": "Blog personnel fait avec Wordpress 6.0 dans lequel je parle de jeux-vidéo. Site web ",
   "chinesedome": "En apprenant le mandarin j'ai décidé de faire une application sur la Chine, Laravel & Vue 3. Dépôt Github ",
-  "p2p": "Utilisant Strapi et React avec Chakra UI pour afficher les jeux des consoles playstation qui sont sortis sur PC. Actuellement en train de travailler sur la version Angular du frontend. Dépôt Github "
+  "p2p": "Utilisant Strapi et React avec Chakra UI pour afficher les jeux des consoles playstation qui sont sortis sur PC. Actuellement en train de travailler sur la version Angular du frontend. Dépôt Github ",
+  "bettermunchkin": "Application Android utilisant Flutter 3.7 pour un jeu de société appelé Munchkin. APK non signée "
 }

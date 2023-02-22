@@ -22,10 +22,15 @@
 import PanelDeOuf from '../components/PanelDeOuf.vue'
 import {ref} from 'vue'
 
-const tab = ref('Playstation To PC');
+const tab = ref('Better Munchkin');
 const fullscreen = ref(false);
 
 const panels = [{
+    name: "Better Munchkin",
+    text: "bettermunchkin",
+    link: "https://drive.google.com/file/d/133hVU0_58YzM85-FmXiRFZ471Q4GtMoq/view?usp=share_link",
+    images: ['projects/bettermunchkin/image1.jpg'],
+}, {
     name: "Playstation To PC",
     text: "p2p",
     link: "https://github.com/DrozdAllan/vitrapi",
