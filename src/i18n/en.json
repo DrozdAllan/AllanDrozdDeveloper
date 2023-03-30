@@ -45,5 +45,5 @@
   "blog": "Personal blog made with Wordpress 6.0 where I talk about video games. Website ",
   "chinesedome": "While learning chinese I decided to make an app about China, Laravel & Vue 3. Github repo ",
   "p2p": "Little app to show videogames that went from playstation consoles to PC. Strapi as backend, Vue + Quasar, React + Chakra and Angular + Material for the frontend. Github repo ",
-  "bettermunchkin": "Android App using Flutter 3.7 for a board game called Munchkin. Unsigned APK "
+  "munchkinhelper": "Android App using Flutter 3.7 & Material 3 for a board game called Munchkin. App "
 }

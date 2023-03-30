@@ -45,5 +45,5 @@
   "blog": "Blog personnel fait avec Wordpress 6.0 dans lequel je parle de jeux-vidéo. Site web ",
   "chinesedome": "En apprenant le mandarin j'ai décidé de faire une application sur la Chine, Laravel & Vue 3. Dépôt Github ",
   "p2p": "Petite appli affichant les jeux des consoles playstation qui sont sortis sur PC. Strapi comme backend, Vue + Quasar, React + Chakra et Angular + Material pour le frontend. Dépôt Github ",
-  "bettermunchkin": "Application Android utilisant Flutter 3.7 pour un jeu de société appelé Munchkin. APK non signée "
+  "munchkinhelper": "Application Android utilisant Flutter 3.7 & Material 3 pour un jeu de société appelé Munchkin. App "
 }

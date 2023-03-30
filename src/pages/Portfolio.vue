@@ -22,14 +22,14 @@
 import PanelDeOuf from '../components/PanelDeOuf.vue'
 import {ref} from 'vue'
 
-const tab = ref('Better Munchkin');
+const tab = ref('Munchkin Helper');
 const fullscreen = ref(false);
 
 const panels = [{
-    name: "Better Munchkin",
-    text: "bettermunchkin",
-    link: "https://drive.google.com/file/d/133hVU0_58YzM85-FmXiRFZ471Q4GtMoq/view?usp=share_link",
-    images: ['projects/bettermunchkin/image1.jpg'],
+    name: "Munchkin Helper",
+    text: "munchkinhelper",
+    link: "https://play.google.com/store/apps/details?id=com.allandrozd.munchkin_helper",
+    images: ['projects/munchkinhelper/image1.jpg'],
 }, {
     name: "Playstation To PC",
     text: "p2p",
