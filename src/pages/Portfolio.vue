@@ -23,7 +23,6 @@ import PanelDeOuf from '../components/PanelDeOuf.vue'
 import {ref} from 'vue'
 
 const tab = ref('Munchkin Helper');
-const fullscreen = ref(false);
 
 const panels = [{
     name: "Munchkin Helper",
@@ -40,11 +39,6 @@ const panels = [{
     text: "chinesedome",
     link: "https://github.com/DrozdAllan/chinese_dome",
     images: ['projects/chinesedome/1.jpg', 'projects/chinesedome/2.jpg', 'projects/chinesedome/3.jpg'],
-}, {
-    name: "Allan\'s Blog",
-    text: "blog",
-    link: "https://allandrozd.info/",
-    images: ['projects/blog/1.jpg', 'projects/blog/2.jpg'],
 }, {
     name: "Movie Titles API",
     text: "movietitlesapi",

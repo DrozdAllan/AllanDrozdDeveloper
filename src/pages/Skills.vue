@@ -47,9 +47,6 @@ const iconsProg = [{
     title: 'Symfony',
     filename: 'symfony_white'
 }, {
-    title: 'Wordpress',
-    filename: 'wordpress_128'
-}, {
     title: 'ApiPlatform',
     filename: 'apiPlatform_300'
 }];
