@@ -47,7 +47,7 @@ const panels = [{
 }, {
     name: "Larallo",
     text: "larallo",
-    link: "https://github.com/DrozdAllan/larallo",
+    link: "https://github.com/DrozdAllan/laralloVue3Quasar",
     images: ['projects/larallo/1.png', 'projects/larallo/2.png']
 }, {
     name: "Lanya",
